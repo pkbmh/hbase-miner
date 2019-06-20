@@ -1,0 +1,11 @@
+/bin
+/data/*
+*/log/*
+*.log
+mock/
+/.idea
+target/
+*.iml
+*.iws
+.DS_Store
+.idea

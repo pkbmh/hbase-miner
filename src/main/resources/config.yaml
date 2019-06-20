@@ -1,0 +1,21 @@
+minerConfig:
+  zookeepers:
+    - localhost
+  zkPort: 2181
+  subscriptionName: sepMiner
+  numThread: 2
+
+#Optional if you want to push messages to kafka
+kafkaConfig:
+  bootstrapServers:
+    - localhost
+  serverPort: 9092
+  zookeepers:
+    - localhost
+  producerConfig:
+  consumerConfig:
+    client.id: "test-client"
+    group.id: "test"
+
+# log producer this will print the records on the terminal
+consoleProducer: true
